@@ -164,7 +164,7 @@ h2
   #cooper3
   {
    position: absolute;  
-   left: 1900px;
+   left: 1800px;
   }
 
 
@@ -213,8 +213,8 @@ h2
   #cooper4
   {
    position: absolute;
-   top: 200px;   
-   left: 2400px;
+   bottom: 300px;   
+   left: 2100px;
   }
 
 
@@ -265,7 +265,7 @@ h2
   {
     position: absolute;
     bottom: 200px;   
-    left: 2700px;
+    left: 2400px;
   }
   #cooper5 .cooper5-first
   {
@@ -320,7 +320,7 @@ h2
   {
     position: absolute;
     top:150px; 
-    left: 3100px;
+    left: 2800px;
   }
   #cooper6 .cooper6-first
   {
@@ -374,7 +374,7 @@ h2
   {
     position: absolute;   
     bottom: 150px; 
-    left: 3100px;
+    left: 2800px;
   }
   #cooper7 .cooper7-first
   {
@@ -430,7 +430,7 @@ h2
   {
    position: absolute;  
    bottom: 300px;
-   left: 3800px;
+   left: 3500px;
   }
 
 
@@ -481,7 +481,7 @@ h2
   {
     position: absolute;
     bottom: 100px;   
-    left: 4150px;
+    left: 3800px;
   }
   #cooper9 .cooper9-first
   {
@@ -533,8 +533,8 @@ h2
   #cooper10
   {
     position: absolute;
-    bottom:300px; 
-    left: 4600px;
+    bottom:350px; 
+    left: 4300px;
   }
   #cooper10 .cooper10-first
   {
@@ -587,8 +587,8 @@ h2
   #cooper11
   {
     position: absolute;
-   bottom:300px; 
-    left: 5100px;
+   bottom:350px; 
+    left: 4900px;
   }
   #cooper11 .cooper11-first
   {
@@ -643,7 +643,7 @@ h2
   {
     position: absolute;
     bottom:100px; 
-    left: 4600px;
+    left: 4300px;
   }
   #cooper12 .cooper12-first
   {
@@ -697,12 +697,12 @@ h2
   #cooper13
   {
    position: absolute;   
-   left: 5500px;
+   left: 5300px;
   }
   
   #cooper13 .cooper13-first {
       visibility: hidden;
-      width: 600px;
+      width: 300px;
       bottom: 100%;
       left: 0;
       margin-left: 0px;
@@ -744,7 +744,7 @@ h2
     #cooper14
     {
      position: absolute;   
-     left: 6100px;
+     left: 5800px;
     }
     
     #cooper14 .cooper14-first {
@@ -793,7 +793,7 @@ h2
   {
     position: absolute;   
     top: 150px; 
-    left: 6700px;
+    left: 6400px;
   }
   #cooper15 .cooper15-first
   {
@@ -899,7 +899,7 @@ h2
   {
     position: absolute;   
     top: 200px; 
-    left: 7500px;
+    left: 7300px;
   }
   #cooper17 .cooper17-first
   {
