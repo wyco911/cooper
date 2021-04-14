@@ -649,8 +649,8 @@ h2
   {
     visibility: hidden;
     width: 450px;
-    top: 100%;
-    left: 0;
+    top: -5px;
+    left: 105%;
    margin-left: -60px;
     margin-left: 0px;
     background-color: white;
