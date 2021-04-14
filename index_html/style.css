@@ -81,7 +81,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 10px 0;
   
     /* Position the tooltip */
@@ -102,7 +101,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -129,7 +127,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 10px 0;
   
     /* Position the tooltip */
@@ -150,7 +147,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -177,7 +173,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 10px 0;
   
     /* Position the tooltip */
@@ -198,7 +193,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -228,7 +222,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -249,7 +242,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -278,7 +270,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -302,7 +293,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -333,7 +323,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -357,7 +346,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -387,7 +375,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -411,7 +398,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -444,7 +430,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -465,7 +450,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -494,7 +478,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -547,7 +530,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -571,7 +553,6 @@ h2
     background-color: white;
     color:rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -601,7 +582,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -625,7 +605,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -656,7 +635,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -680,7 +658,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -709,8 +686,7 @@ h2
       background-color: white;
       color: green;
       text-align: left;
-      border-radius: 6px;
-      padding: 10px 0;
+        padding: 10px 0;
     
       /* Position the tooltip */
       position: absolute;
@@ -730,8 +706,7 @@ h2
       background-color: white;
       color: green;
       text-align: left;
-      border-radius: 6px;
-      padding: 5px 0;
+        padding: 5px 0;
     
       /* Position the tooltip */
       position: absolute;
@@ -756,8 +731,7 @@ h2
         background-color: white;
         color: green;
         text-align: left;
-        border-radius: 6px;
-        padding: 10px 0;
+            padding: 10px 0;
       
         /* Position the tooltip */
         position: absolute;
@@ -777,8 +751,7 @@ h2
         background-color: white;
         color: green;
         text-align: left;
-        border-radius: 6px;
-        padding: 5px 0;
+            padding: 5px 0;
       
         /* Position the tooltip */
         position: absolute;
@@ -806,7 +779,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -830,7 +802,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -863,7 +834,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -884,7 +854,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -912,7 +881,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -936,7 +904,6 @@ h2
     background-color: white;
     color: green;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -969,7 +936,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -990,7 +956,6 @@ h2
     background-color: white;
     color: blue;
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
@@ -1016,7 +981,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 10px 0;
   
     /* Position the tooltip */
@@ -1037,7 +1001,6 @@ h2
     background-color: white;
     color: rgba(193,38,48,255);
     text-align: left;
-    border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
