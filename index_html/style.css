@@ -1,0 +1,1050 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1 {
+    font-weight: bolder;
+    color: black;
+    font-size: 40px;
+  }
+  
+h2 
+{
+    font-weight: bold;
+    color:black ;
+    font-size: 18px;
+  }
+
+#board
+{
+    font-weight: bold;
+    color: rgba(193,38,48,255);
+    position:fixed;
+    top:10px;
+    right:100px;
+  }
+  #community
+{
+    font-weight: bold;
+    color: green;
+    position:fixed;
+    top:30px;
+    right:100px;
+  }
+  #press
+{
+    font-weight: bold;
+    color: blue;
+    position:fixed;
+    top:50px;
+    right:100px;
+  }
+ 
+.container
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+.container section
+{
+    min-width: 500%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#intro{
+    position: absolute;   
+    left: 30px;
+}
+#cooper
+{
+ position: absolute;   
+ left: 1000px;
+}
+
+#cooper .cooper-first {
+    visibility: hidden;
+    width: 300px;
+    bottom: 100%;
+    left: 0;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper:hover .cooper-first {
+    visibility: visible;
+  }
+
+  #cooper .cooper-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper:hover .cooper-second {
+    visibility: visible;
+  }
+  #cooper2
+  {
+   position: absolute;   
+   left: 1300px;
+  }
+
+
+  #cooper2 .cooper2-first {
+    visibility: hidden;
+    width: 500px;
+    bottom: 100%;
+    left: 0;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper2:hover .cooper2-first {
+    visibility: visible;
+  }
+
+  #cooper2 .cooper2-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper2:hover .cooper2-second {
+    visibility: visible;
+  }
+  #cooper3
+  {
+   position: absolute;  
+   left: 1900px;
+  }
+
+
+  #cooper3 .cooper3-first {
+    visibility: hidden;
+    width: 400px;
+    bottom: 100%;
+    left: 0;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper3:hover .cooper3-first {
+    visibility: visible;
+  }
+
+  #cooper3 .cooper3-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper3:hover .cooper3-second {
+    visibility: visible;
+  }
+
+  #cooper4
+  {
+   position: absolute;
+   top: 200px;   
+   left: 2400px;
+  }
+
+
+  #cooper4 .cooper4-first {
+    visibility: hidden;
+    width: 350px;
+    top: -5px;
+  left: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper4:hover .cooper4-first {
+    visibility: visible;
+  }
+
+  #cooper4 .cooper4-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper4:hover .cooper4-second {
+    visibility: visible;
+  }
+
+  #cooper5
+  {
+    position: absolute;
+    bottom: 200px;   
+    left: 2700px;
+  }
+  #cooper5 .cooper5-first
+  {
+    visibility: hidden;
+    width: 300px;
+    bottom: 0px;
+    right: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper5:hover .cooper5-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper5 .cooper5-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper5:hover .cooper5-second
+  {
+    visibility: visible;
+
+  }
+
+  #cooper6
+  {
+    position: absolute;
+    top:150px; 
+    left: 3100px;
+  }
+  #cooper6 .cooper6-first
+  {
+    visibility: hidden;
+    width: 600px;
+    bottom: 100%;
+    left: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper6:hover .cooper6-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper6 .cooper6-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper6:hover .cooper6-second
+  {
+    visibility: visible;
+
+  }
+  #cooper7
+  {
+    position: absolute;   
+    bottom: 150px; 
+    left: 3100px;
+  }
+  #cooper7 .cooper7-first
+  {
+    visibility: hidden;
+    width: 300px;
+    top: -5px;
+  left: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper7:hover .cooper7-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper7 .cooper7-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper7:hover .cooper7-second
+  {
+    visibility: visible;
+
+  }
+  
+
+  #cooper8
+  {
+   position: absolute;  
+   bottom: 300px;
+   left: 3800px;
+  }
+
+
+  #cooper8 .cooper8-first {
+    visibility: hidden;
+    width: 400px;
+    top: -5px;
+  left: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper8:hover .cooper8-first {
+    visibility: visible;
+  }
+
+  #cooper8 .cooper8-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper8:hover .cooper8-second {
+    visibility: visible;
+  }
+
+  #cooper9
+  {
+    position: absolute;
+    bottom: 100px;   
+    left: 4150px;
+  }
+  #cooper9 .cooper9-first
+  {
+    visibility: hidden;
+    width: 300px;
+    bottom: 0px;
+    right: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper9:hover .cooper9-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper9 .cooper9-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper9:hover .cooper9-second
+  {
+    visibility: visible;
+
+  }
+  #cooper10
+  {
+    position: absolute;
+    bottom:300px; 
+    left: 4600px;
+  }
+  #cooper10 .cooper10-first
+  {
+    visibility: hidden;
+    width: 450px;
+    bottom: 100%;
+    left: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper10:hover .cooper10-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper10 .cooper10-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color:rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper10:hover .cooper10-second
+  {
+    visibility: visible;
+
+  }
+  #cooper11
+  {
+    position: absolute;
+   bottom:300px; 
+    left: 5100px;
+  }
+  #cooper11 .cooper11-first
+  {
+    visibility: hidden;
+    width: 300px;
+    bottom: 100%;
+    left: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper11:hover .cooper11-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper11 .cooper11-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper11:hover .cooper11-second
+  {
+    visibility: visible;
+
+  }
+
+  #cooper12
+  {
+    position: absolute;
+    bottom:100px; 
+    left: 4600px;
+  }
+  #cooper12 .cooper12-first
+  {
+    visibility: hidden;
+    width: 450px;
+    top: 100%;
+    left: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper12:hover .cooper12-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper12 .cooper12-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper12:hover .cooper12-second
+  {
+    visibility: visible;
+
+  }
+
+  #cooper13
+  {
+   position: absolute;   
+   left: 5500px;
+  }
+  
+  #cooper13 .cooper13-first {
+      visibility: hidden;
+      width: 600px;
+      bottom: 100%;
+      left: 0;
+      margin-left: 0px;
+      background-color: white;
+      color: green;
+      text-align: left;
+      border-radius: 6px;
+      padding: 10px 0;
+    
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+    }
+    
+    #cooper13:hover .cooper13-first {
+      visibility: visible;
+    }
+  
+    #cooper13 .cooper13-second {
+      visibility: hidden;
+      top: 100%;
+      right: 0;
+     margin-left: -60px;
+      margin-left: 0px;
+      background-color: white;
+      color: green;
+      text-align: left;
+      border-radius: 6px;
+      padding: 5px 0;
+    
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+    }
+    
+    #cooper13:hover .cooper13-second {
+      visibility: visible;
+    }
+    #cooper14
+    {
+     position: absolute;   
+     left: 6100px;
+    }
+    
+    #cooper14 .cooper14-first {
+        visibility: hidden;
+        width: 600px;
+        bottom: 100%;
+        left: 0;
+        margin-left: 0px;
+        background-color: white;
+        color: green;
+        text-align: left;
+        border-radius: 6px;
+        padding: 10px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      #cooper14:hover .cooper14-first {
+        visibility: visible;
+      }
+    
+      #cooper14 .cooper14-second {
+        visibility: hidden;
+        top: 100%;
+        right: 0;
+       margin-left: -60px;
+        margin-left: 0px;
+        background-color: white;
+        color: green;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      #cooper14:hover .cooper14-second {
+        visibility: visible;
+      }
+
+  #cooper15
+  {
+    position: absolute;   
+    top: 150px; 
+    left: 6700px;
+  }
+  #cooper15 .cooper15-first
+  {
+    visibility: hidden;
+    width: 300px;
+    top: -5px;
+  left: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper15:hover .cooper15-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper15 .cooper15-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper15:hover .cooper15-second
+  {
+    visibility: visible;
+
+  }
+  
+
+  #cooper16
+  {
+   position: absolute;  
+   bottom: 150px;
+   left: 7000px;
+  }
+
+
+  #cooper16 .cooper16-first {
+    visibility: hidden;
+    width: 300px;
+    bottom: 0px;
+    right: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper16:hover .cooper16-first {
+    visibility: visible;
+  }
+
+  #cooper16 .cooper16-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper16:hover .cooper16-second {
+    visibility: visible;
+  }
+  #cooper17
+  {
+    position: absolute;   
+    top: 200px; 
+    left: 7500px;
+  }
+  #cooper17 .cooper17-first
+  {
+    visibility: hidden;
+    width: 300px;
+    top: -5px;
+  left: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper17:hover .cooper17-first
+  {
+    visibility: visible;
+
+  }
+
+  #cooper17 .cooper17-second
+  {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #cooper17:hover .cooper17-second
+  {
+    visibility: visible;
+
+  }
+  
+
+  #cooper18
+  {
+   position: absolute;  
+   bottom: 150px;
+   left: 7800px;
+  }
+
+
+  #cooper18 .cooper18-first {
+    visibility: hidden;
+    width: 300px;
+    bottom: 0px;
+    right: 105%;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper18:hover .cooper18-first {
+    visibility: visible;
+  }
+
+  #cooper18 .cooper18-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper18:hover .cooper18-second {
+    visibility: visible;
+  }
+  #cooper19
+{
+ position: absolute;   
+ left: 8300px;
+}
+
+#cooper19 .cooper19-first {
+    visibility: hidden;
+    width: 300px;
+    bottom: 100%;
+    left: 0;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper19:hover .cooper19-first {
+    visibility: visible;
+  }
+
+  #cooper19 .cooper19-second {
+    visibility: hidden;
+    top: 100%;
+    right: 0;
+   margin-left: -60px;
+    margin-left: 0px;
+    background-color: white;
+    color: rgba(193,38,48,255);
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #cooper19:hover .cooper19-second {
+    visibility: visible;
+  }

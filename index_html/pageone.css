@@ -1,0 +1,30 @@
+*
+.container
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+.container section
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bolder;
+    color: black;
+    font-size: 40px;
+  }
+  h2 
+{
+    font-weight: bold;
+    color:black ;
+    font-size: 18px;
+  }
